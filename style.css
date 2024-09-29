@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header h1{
+    color: lawngreen;
+    font-size: 50px;
+    text-align: center;
+    background: darkgreen;
+    width: 40%;
+    border-radius: 40px;
+    margin-left: 450px;
+    display: inline-block
+}
+
+.header h1:hover {
+    background-color: lawngreen;
+    color: azure;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(date.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+section nav {
+    width: 100%;
+    height: 70px;
+    padding-top: 25px;
+    background: azure;
+}
+
+section nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+section nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+section nav ul li:hover {
+    color: lawngreen;
+}
+
+section .text {
+    position: absolute;
+    top: 250px;
+    left: 5%;
+}
+
+section .text .word {
+    color: azure;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+section .text h1 {
+    font-size: 50px;
+    color: azure;
+    line-height: 65px;
+}
+
+section .text h1 span {
+    color: lawngreen;
+}
+
+section .text .textarea {
+    width: 600px;
+    margin-top: 20px;
+    color: azure;
+    text-align: justify;
+    line-height: 25px;
+}
+
+section .textarea .search-bar {
+    width: 400px;
+    padding: 0 10px;
+    background: azure;
+    margin-top: 28px;
+}
+
+section .textarea .search-bar input {
+    width: 350px;
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+}
+
+section .textarea .search-bar button {
+    position: absolute;
+    left: 400px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: lawngreen;
+    border: 0;
+}
+
+/*second*/
+
+.second {
+    width: 100%;
+    height: auto;
+    background: black;
+    padding: 50px 0;
+}
+
+.second .img-box {
+    width: 100%;
+    height: 450px;
+    padding: 0 2%;
+    display: flex;
+}
+
+.second .img-box .img-card {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.second .img-box .img-card .display-text {
+    width: 450px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 35px;
+    position: absolute;
+}
+
+.second .img-box .img-card .display-text p {
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.second .img-box .img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+}
+
+/* description-1 */
+
+.description-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.description-1 .d-text h1 {
+    color: azure;
+    font-size: 65px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+}
+
+.description-1 .d-text .head-title {
+    margin-bottom: 15px;
+    color: azure;
+}
+
+.description-1 .d-text .desc {
+    width: 650px;
+    text-align: justify;
+    color: azure;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.description-1 .d-text .dis-btn {
+    text-decoration: none;
+    color: black;
+    padding: 8px 13px;
+    background-color: lawngreen;
+    font-size: 15px;border-radius: 15px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description-1 .d-text .dis-btn:hover {
+    background: azure;
+    color: lawngreen;
+    text-decoration: underline;
+}
+
+.description-1 .dis-img {
+    width: 600px;
+    height: 600px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.description-1 .dis-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+.menu h1 {
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.menu .m-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1% 0;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.menu .m-box .m-cards {
+    width: 600px;
+    height: 690px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.menu .m-box .m-cards .m-img {
+    width: 600px;
+    height: 620px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.menu .m-box .m-cards .m-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+    padding-left: 20px;
+}
+
+.menu .m-box .m-cards h6 {
+    color: azure;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu .m-box .m-cards .m-btn {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    background: lawngreen;
+    padding: 8px 0;
+    font-size: 15px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu .m-box .m-cards .m-btn:hover {
+    background: azure;
+    color: lawngreen;
+    text-decoration: underline;
+
+}
+
+.banner {
+    width: 100%;
+    height: 90vh;
+    background: black;
+}
+
+.banner .b-text {
+    position: absolute;
+}
+
+.banner .b-text h6 {
+    color: lawngreen;
+    letter-spacing: 1px;
+    position: relative;
+    top: 340px;
+    left: 14%;
+    font-size: 13px;
+}
+
+.banner .b-text h1 {
+    color: lawngreen;
+    position: relative;
+    top: 345px;
+    left: 14%;
+    font-size: 40px;
+}
+
+.banner .b-text p {
+    width: 550px;
+    color: lawngreen;
+    position: relative;
+    top: 360px;
+    left: 14%;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.banner .b-text .b-btn {
+    width: 130px;
+    position: relative;
+    top: 390px;
+    left: 14%;
+    text-decoration: none;
+    color: black;
+    background: lawngreen;
+    padding: 8px 0;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 8px 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner .b-text .b-btn:hover {
+    background: azure;
+    color: lawngreen;
+    text-decoration: underline;
+}
+
+.banner img {
+    width: 95%;
+    height: 630px;
+    display: flex;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+}
+
+/*contact*/
+
+.contact {
+    width: 100%;
+    height: 345px;
+    padding: 20px 0;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact .subscribe {
+    text-align: center;
+    justify-content: center;
+    background-color: darkgreen;
+}
+
+.contact .subscribe h1 {
+    color: lawngreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact .subscribe .title {
+    color: lawngreen;
+    text-align: center;
+}
+
+.contact .subscribe .c-search {
+    margin: 4px 0;
+}
+
+.contact .subscribe .c-search input {
+    width: 250px;
+    padding: 8px 5px;
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    color: lawngreen;
+    border-color: lawngreen;
+    margin-top: 20px;
+}
+
+.contact .subscribe .c-search button {
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    color: black;
+    background: lawngreen;
+    padding: 8px 12px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact .subscribe .address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .subscribe .address .place {
+    text-align: left;
+}
+
+.contact .subscribe .address .place h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lawngreen;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact .subscribe .address .place p {
+    color: lawngreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 23px;
+}
+
+.contact .subscribe .address .place .p1
+}
+
+.contact .subscribe .address .follow {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lawngreen;
+    margin-bottom: 15px;
+}
+
+.contact .subscribe .address .follow .icon {
+    letter-spacing: 5px;
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contact .subscribe .address .follow .icon i:hover {
+    color: lawngreen;
+}
+
+p.end {
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    color: azure;
+}
+
+p.end span {
+    color: lawngreen;
+}
+
+p.end span i {
+    margin: 0 8px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: lawngreen;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
